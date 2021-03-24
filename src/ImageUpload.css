@@ -1,0 +1,37 @@
+.imageUpload {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: white;
+  border-top: 1px solid lightgray;
+}
+
+.imageUpload__progress {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.imageUpload__input {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 9px;
+    height: 29px;
+    outline-width: 0;
+    color: cornflowerblue;
+}
+
+.imageUpload__filePicker {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    padding: 10px;
+   
+}
+
+.imageUpload__button {
+    margin-bottom: 10px !important;
+}
